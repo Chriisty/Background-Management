@@ -1,0 +1,76 @@
+.user{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.user img{
+    width: 150px;
+    height:150px;
+    border-radius:50%;
+    margin-right:40px
+}
+.user .userino .name{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.user .userino .access{
+    color: #999999;
+}
+.loin-info p{
+    line-height: 28px;
+    font-size: 14px;
+    color: #999999;
+}
+.loin-info span{
+    color: black;
+    margin-left: 60px;
+}
+.num{
+    display: flex;
+    /* 换行 */
+    flex-wrap: wrap;
+    /* 水平均匀分布 */
+    justify-content: space-between;
+   }
+    /* .el-card__body{
+    display: flex;
+} */
+   .icon{
+    font-size: 30px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    color: #fff;
+   }
+   .detail{
+    margin-left: 15px;
+    display: flex;
+    /* 垂直方向 */
+    flex-direction: column;
+    justify-content: center;
+   }
+   .detail .num{
+    font-size: 28px;
+    margin-bottom:10px
+}
+    .detail .txt{
+        font-size: 14px;
+        text-align: center;
+        color: #999999;
+    }
+
+p{
+    margin: 0;
+}
+.graph{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.graph .el-card{
+    width: 48%;
+}

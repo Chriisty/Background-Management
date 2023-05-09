@@ -1,0 +1,10 @@
+.manage{
+   height: 90%;
+   padding-bottom: 20%;
+}
+.manage .manage-header{
+    display: flex;
+    justify-content: space-between;
+    /* 垂直方向 顶部对齐 */
+    align-items: flex-start;
+}
